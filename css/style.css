@@ -1,0 +1,135 @@
+
+:root {
+    --primaryColor: #6d28d9;
+    --secondaryColor: #ede9fe;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #7c7c7c;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+    --mainRed: #db2777;
+    --bodyColor: #f6f6f6;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bodyColor);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--secondaryColor);
+}
+
+.search-wrapper {
+    width: 100%;
+    max-width: 1117px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.search-box {
+    width: 300px;
+    padding: 0.6rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+    outline: 0;
+}
+
+
+.filter-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.filter-btn-wrapper button {
+    padding: 0.5rem 0.7rem;
+    color: var(--primaryColor);
+    border: 1px solid #ac89e4;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.filter-btn-wrapper button:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 1rem 1rem;
+    background-color: var(--mainWhite);
+    border: 1px solid var(--mainWhite);
+    border-radius: 0.7rem;
+
+}
+
+.image-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.image-wrapper img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.product-price {
+    color: var(--primaryColor);
+}
+
+.product-name {
+    color: var(--mainBlack);
+}
+
+@media screen and (min-width:567px) {
+    .product-item {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .product-item {
+        width: 30%;
+    }
+    
+}

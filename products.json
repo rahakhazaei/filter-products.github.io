@@ -1,0 +1,95 @@
+{
+  "items":[
+      {
+        "id": 1,
+        "title": "watch product",
+        "class":"watch",
+        "price": 10.99,
+        "image": "./assets/images/w1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "watch product",
+        "class":"watch",
+        "price": 14.99,
+        "image": "./assets/images/w2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "shirt product",
+        "class":"shirt",
+        "price": 7.99,
+        "image": "./assets/images/s1.jpg"
+      },
+      {
+        "id": 4,
+        "title": "shirt product",
+        "class":"shirt",
+        "price": 11.99,
+        "image": "./assets/images/s2.jpg"
+      },
+      {
+        "id": 5,
+        "title": "watch product",
+        "class":"watch",
+        "price": 4.99,
+        "image": "./assets/images/w3.jpg"
+      },
+      {
+        "id": 6,
+        "title": "gown product",
+        "class":"gown",
+        "price": 23.99,
+        "image": "./assets/images/g1.jpg"
+      },
+      {
+        "id": 7,
+        "title": "shirt product",
+        "class":"shirt",
+        "price": 42.99,
+        "image": "./assets/images/s1.jpg"
+      },
+      {
+        "id": 8,
+        "title": "shirt product",
+        "class":"shirt",
+        "price": 24.99,
+        "image": "./assets/images/s2.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Jewelry product",
+        "class":"Jewelry",
+        "price": 24.99,
+        "image": "./assets/images/j2.jpg"
+      }
+      ,   {
+        "id": 10,
+        "title": "Jewelry product",
+        "class":"Jewelry",
+        "price": 24.99,
+        "image": "./assets/images/j3.jpg"
+      }
+      ,   {
+        "id": 11,
+        "title": "gown product",
+        "class":"gown",
+        "price": 24.99,
+        "image": "./assets/images/g2.jpg"
+      }
+      ,   {
+        "id": 12,
+        "title": "gown product",
+        "class":"gown",
+        "price": 24.99,
+        "image": "./assets/images/g3.jpg"
+      }
+      ,   {
+        "id": 13,
+        "title": "watch product",
+        "class":"watch",
+        "price": 24.99,
+        "image": "./assets/images/w1.jpg"
+      }
+    ]
+}

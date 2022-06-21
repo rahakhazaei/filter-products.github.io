@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>search&&filter</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="search-wrapper">
+        <p class="title">Product Filter</p>
+        <form action="">
+          <input
+            type="text"
+            name="searchBox"
+            id="searchBox"
+            class="search-box"
+            placeholder="search product"
+          />
+        </form>
+        <div class="filter-btn-wrapper">
+          <button class="btn" data-filter="">All</button>
+          <button class="btn" data-filter="watch">Watch</button>
+          <button class="btn" data-filter="shirt">Shirt</button
+          ><button class="btn" data-filter="gown">Gown</button>
+          <button class="btn" data-filter="jewelry">jewelry</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="products-wrapper"></section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
